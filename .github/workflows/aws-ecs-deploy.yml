@@ -18,10 +18,10 @@ on:
 
 env:
   AWS_REGION: ap-northeast-2
-  CLUSTER_NAME: next-team4-ecs-cluster
+  CLUSTER_NAME: next-cluster
   SERVICE_NAME: jeongwoo-task-service
   CONTAINER_NAME: jeongwoo-ecr
-  REPOSITORY_NAME: jeongwoo
+  REPOSITORY_NAME: jeongwoo-app
 
 jobs:
   deploy:
